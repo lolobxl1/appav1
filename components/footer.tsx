@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Facebook, Phone } from "lucide-react"
+import { Facebook, Instagram } from "lucide-react"
 
 export function Footer() {
   return (
@@ -56,11 +56,13 @@ export function Footer() {
               <Facebook className="h-4 w-4" />
             </Link>
             <Link
-              href="tel:+3200000000"
+              href="https://www.instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex h-9 w-9 items-center justify-center rounded-full bg-background/10 text-background/70 transition-colors hover:bg-background/20 hover:text-background"
-              aria-label="Telephone"
+              aria-label="Instagram"
             >
-              <Phone className="h-4 w-4" />
+              <Instagram className="h-4 w-4" />
             </Link>
           </div>
         </div>

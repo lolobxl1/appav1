@@ -3,7 +3,7 @@
 import { useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { Menu, X, Facebook } from "lucide-react"
+import { Menu, X, Facebook, Instagram } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 
@@ -59,6 +59,15 @@ export function Navbar() {
           >
             <Facebook className="h-5 w-5" />
           </Link>
+          <Link
+            href="https://www.instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-background/60 transition-colors hover:text-secondary"
+            aria-label="Instagram"
+          >
+            <Instagram className="h-5 w-5" />
+          </Link>
           <Button size="sm" className="bg-secondary text-secondary-foreground hover:bg-secondary/90" asChild>
             <Link href="/boutique">Boutique</Link>
           </Button>
@@ -101,6 +110,15 @@ export function Navbar() {
                 aria-label="Facebook"
               >
                 <Facebook className="h-5 w-5" />
+              </Link>
+              <Link
+                href="https://www.instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-background/60 transition-colors hover:text-secondary"
+                aria-label="Instagram"
+              >
+                <Instagram className="h-5 w-5" />
               </Link>
               <Button size="sm" className="flex-1 bg-secondary text-secondary-foreground hover:bg-secondary/90" asChild>
                 <Link href="/boutique">Boutique</Link>
