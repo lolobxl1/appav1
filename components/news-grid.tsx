@@ -16,7 +16,7 @@ export function NewsGrid() {
     : articles.filter((a) => a.tags.includes(active))
 
   return (
-    <section className="py-20 px-6">
+    <section className="py-10 px-6">
       <div className="mx-auto max-w-7xl">
         {/* Filters */}
         <div className="mb-10 flex flex-wrap gap-2">

@@ -10,7 +10,7 @@ export function PageHeader({ title, description, variant = "default" }: PageHead
   return (
     <section
       className={cn(
-        "relative pt-28 pb-12 px-6 overflow-hidden",
+        "relative pt-28 pb-8 px-6 overflow-hidden",
         variant === "primary"
           ? "bg-primary"
           : "bg-foreground"
