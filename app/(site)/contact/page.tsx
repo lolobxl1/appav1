@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import { PageHeader } from "@/components/page-header"
+import { Team } from "@/components/team"
 
 export const metadata: Metadata = {
   title: "Contact | APPA",
@@ -10,16 +11,10 @@ export default function ContactPage() {
   return (
     <>
       <PageHeader
-        title="Contact"
-        description="N'hesitez pas a nous contacter pour toute question ou suggestion."
+        title="Une equipe solide"
+        description="Une chaine faite de maillons qui forment une equipe devouee au bien-etre de vos enfants."
       />
-      <section className="py-20 px-6">
-        <div className="mx-auto max-w-7xl">
-          <p className="text-muted-foreground text-lg leading-relaxed">
-            {"Contenu a venir."}
-          </p>
-        </div>
-      </section>
+      <Team />
     </>
   )
 }
