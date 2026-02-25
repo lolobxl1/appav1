@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Facebook, Phone } from "lucide-react"
+import { Facebook, Instagram } from "lucide-react"
 
 export function Footer() {
   return (
@@ -19,20 +19,29 @@ export function Footer() {
             <Link href="/" className="text-sm text-background/60 transition-colors hover:text-background">
               Accueil
             </Link>
-            <Link href="/actualites" className="text-sm text-background/60 transition-colors hover:text-background">
-              Actualites
-            </Link>
             <Link href="/a-propos" className="text-sm text-background/60 transition-colors hover:text-background">
               A propos
             </Link>
-            <Link href="/boutique" className="text-sm text-background/60 transition-colors hover:text-background">
-              Boutique
+            <Link href="/actualites" className="text-sm text-background/60 transition-colors hover:text-background">
+              Actualites
             </Link>
-            <Link href="/equipe" className="text-sm text-background/60 transition-colors hover:text-background">
-              Equipe
+            <Link href="/nos-projets" className="text-sm text-background/60 transition-colors hover:text-background">
+              Nos Projets
+            </Link>
+            <Link href="/extra-scolaire" className="text-sm text-background/60 transition-colors hover:text-background">
+              Extra-scolaire
+            </Link>
+            <Link href="/le-verseau-unplugged" className="text-sm text-background/60 transition-colors hover:text-background">
+              Le Verseau Unplugged
             </Link>
             <Link href="/faq" className="text-sm text-background/60 transition-colors hover:text-background">
-              FAQ
+              Questions frequentes
+            </Link>
+            <Link href="/contact" className="text-sm text-background/60 transition-colors hover:text-background">
+              Contact
+            </Link>
+            <Link href="/boutique" className="text-sm text-background/60 transition-colors hover:text-background">
+              Boutique
             </Link>
           </nav>
 
@@ -47,11 +56,13 @@ export function Footer() {
               <Facebook className="h-4 w-4" />
             </Link>
             <Link
-              href="tel:+3200000000"
+              href="https://www.instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex h-9 w-9 items-center justify-center rounded-full bg-background/10 text-background/70 transition-colors hover:bg-background/20 hover:text-background"
-              aria-label="Telephone"
+              aria-label="Instagram"
             >
-              <Phone className="h-4 w-4" />
+              <Instagram className="h-4 w-4" />
             </Link>
           </div>
         </div>

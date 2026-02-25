@@ -3,11 +3,11 @@ import { PageHeader } from "@/components/page-header"
 import { Team } from "@/components/team"
 
 export const metadata: Metadata = {
-  title: "Equipe | APPA",
-  description: "Rencontrez l'equipe de benevoles de l'APPA, dediee au bien-etre des eleves de Le Verseau.",
+  title: "Contact | APPA",
+  description: "Contactez l'Association des Parents de l'Ecole Internationale Le Verseau.",
 }
 
-export default function EquipePage() {
+export default function ContactPage() {
   return (
     <>
       <PageHeader
