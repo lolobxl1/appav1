@@ -28,9 +28,9 @@ export function Navbar() {
           <Image
             src="/images/appa-logo.png"
             alt="APPA - Association des Parents du Verseau"
-            width={80}
-            height={40}
-            className="h-8 w-auto"
+            width={120}
+            height={48}
+            className="h-12 w-auto"
             priority
           />
         </Link>

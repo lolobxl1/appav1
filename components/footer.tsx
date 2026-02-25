@@ -11,9 +11,9 @@ export function Footer() {
             <Image
               src="/images/appa-logo.png"
               alt="APPA - Association des Parents du Verseau"
-              width={100}
-              height={50}
-              className="h-10 w-auto"
+              width={120}
+              height={48}
+              className="h-12 w-auto"
             />
           </div>
 
