@@ -2,7 +2,6 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import Image from "next/image"
 import { usePathname } from "next/navigation"
 import { Menu, X, Facebook, Instagram } from "lucide-react"
 import { cn } from "@/lib/utils"
@@ -25,14 +24,9 @@ export function Navbar() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-foreground/95 backdrop-blur-md border-b border-background/10">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <Link href="/" className="flex items-center gap-2">
-          <Image
-            src="/images/appa-logo.png"
-            alt="APPA - Association des Parents du Verseau"
-            width={120}
-            height={48}
-            className="h-12 w-auto"
-            priority
-          />
+          <span className="text-xl font-bold tracking-tight text-background">
+            APPA
+          </span>
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex" aria-label="Main navigation">

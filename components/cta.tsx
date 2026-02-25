@@ -15,7 +15,7 @@ export function Cta() {
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-4">
           <Button size="lg" asChild>
-            <Link href="/contact">
+            <Link href="mailto:appasecondaire@eiverseau.be">
               Nous rejoindre
               <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
