@@ -7,7 +7,7 @@ export function Hero() {
   return (
     <section id="hero" className="relative min-h-[90vh] flex items-center overflow-hidden">
       <Image
-        src="/sitebeta1/images/hero.jpg"
+        src="/images/hero.jpg"
         alt="Parents and children at Le Verseau international school"
         fill
         sizes="100vw"
