@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Facebook, Instagram } from "lucide-react"
 
 export function Footer() {
@@ -7,12 +8,13 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="flex flex-col items-center gap-6 md:flex-row md:justify-between">
           <div>
-            <span className="text-lg font-bold text-background">
-              APPA
-            </span>
-            <p className="mt-1 text-sm text-background/60">
-              {"Association des Parents de l'ecole internationale Le Verseau"}
-            </p>
+            <Image
+              src="/images/appa-logo.png"
+              alt="APPA - Association des Parents du Verseau"
+              width={100}
+              height={50}
+              className="h-10 w-auto"
+            />
           </div>
 
           <nav className="flex flex-wrap items-center justify-center gap-6" aria-label="Footer navigation">
