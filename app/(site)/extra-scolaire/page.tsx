@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import { PageHeader } from "@/components/page-header"
+import { ExtraScolaireContent } from "@/components/extra-scolaire-content"
 
 export const metadata: Metadata = {
   title: "Extra-scolaire | APPA",
@@ -10,16 +11,10 @@ export default function ExtraScolairePage() {
   return (
     <>
       <PageHeader
-        title="Extra-scolaire"
-        description="Decouvrez les activites extra-scolaires proposees pour les eleves du Verseau."
+        title="Extra-scolaire au Verseau"
+        description="Fini les mercredis en mode taxi et « j'sais pas quoi faire » ! Le programme est pret, les activites chauffent, il ne manque plus que vos enfants !"
       />
-      <section className="py-20 px-6">
-        <div className="mx-auto max-w-7xl">
-          <p className="text-muted-foreground text-lg leading-relaxed">
-            {"Contenu a venir."}
-          </p>
-        </div>
-      </section>
+      <ExtraScolaireContent />
     </>
   )
 }
