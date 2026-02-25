@@ -11,7 +11,6 @@ export default function ActualitesPage() {
   return (
     <>
       <PageHeader
-        variant="primary"
         title="Nos actualites"
         description="Retrouvez toutes les dernieres nouvelles, evenements et annonces de l'APPA et de l'ecole Le Verseau."
       />
