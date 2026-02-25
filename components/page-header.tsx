@@ -6,7 +6,7 @@ interface PageHeaderProps {
 export function PageHeader({ title, description }: PageHeaderProps) {
   return (
     <section
-      className="relative pt-28 pb-8 px-6 overflow-hidden bg-foreground"
+      className="relative pt-28 pb-8 px-6 overflow-hidden bg-primary"
       style={{
         backgroundImage:
           "radial-gradient(ellipse 80% 60% at 30% 70%, hsl(var(--accent) / .10), transparent), radial-gradient(ellipse 100% 50% at 80% 20%, hsl(var(--secondary) / .25), transparent)",
