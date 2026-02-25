@@ -28,20 +28,14 @@ export function Footer() {
             <Link href="/nos-projets" className="text-sm text-background/60 transition-colors hover:text-background">
               Nos Projets
             </Link>
-            <Link href="/extra-scolaire" className="text-sm text-background/60 transition-colors hover:text-background">
-              Extra-scolaire
-            </Link>
-            <Link href="/le-verseau-unplugged" className="text-sm text-background/60 transition-colors hover:text-background">
-              Le Verseau Unplugged
-            </Link>
             <Link href="/faq" className="text-sm text-background/60 transition-colors hover:text-background">
               Questions frequentes
             </Link>
-            <Link href="/contact" className="text-sm text-background/60 transition-colors hover:text-background">
-              Contact
-            </Link>
             <Link href="/boutique" className="text-sm text-background/60 transition-colors hover:text-background">
               Boutique
+            </Link>
+            <Link href="/contact" className="text-sm text-background/60 transition-colors hover:text-background">
+              Contact
             </Link>
           </nav>
 

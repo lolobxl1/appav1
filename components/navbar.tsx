@@ -4,7 +4,6 @@ import { useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { Menu, X, Facebook, Instagram } from "lucide-react"
-import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 
 const navLinks = [
@@ -12,9 +11,8 @@ const navLinks = [
   { label: "A propos", href: "/a-propos" },
   { label: "Actualites", href: "/actualites" },
   { label: "Nos Projets", href: "/nos-projets" },
-  { label: "Extra-scolaire", href: "/extra-scolaire" },
-  { label: "Le Verseau Unplugged", href: "/le-verseau-unplugged" },
   { label: "Questions frequentes", href: "/faq" },
+  { label: "Boutique", href: "/boutique" },
   { label: "Contact", href: "/contact" },
 ]
 
@@ -68,9 +66,6 @@ export function Navbar() {
           >
             <Instagram className="h-5 w-5" />
           </Link>
-          <Button size="sm" className="bg-secondary text-secondary-foreground hover:bg-secondary/90" asChild>
-            <Link href="/boutique">Boutique</Link>
-          </Button>
         </div>
 
         <button
@@ -120,9 +115,6 @@ export function Navbar() {
               >
                 <Instagram className="h-5 w-5" />
               </Link>
-              <Button size="sm" className="flex-1 bg-secondary text-secondary-foreground hover:bg-secondary/90" asChild>
-                <Link href="/boutique">Boutique</Link>
-              </Button>
             </div>
           </nav>
         </div>
