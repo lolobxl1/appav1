@@ -35,8 +35,8 @@ export function Hero() {
               </Link>
             </Button>
             <Button size="lg" variant="outline" className="bg-background/10 text-background border-background/30 hover:bg-background/20 hover:text-background" asChild>
-              <Link href="mailto:appafondamental@eiverseau.be">
-                Nous rejoindre
+              <Link href="/nos-projets">
+                Nos projets
               </Link>
             </Button>
           </div>

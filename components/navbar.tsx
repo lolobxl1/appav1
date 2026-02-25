@@ -9,11 +9,13 @@ import { cn } from "@/lib/utils"
 
 const navLinks = [
   { label: "Accueil", href: "/" },
-  { label: "Actualites", href: "/actualites" },
   { label: "A propos", href: "/a-propos" },
-  { label: "Boutique", href: "/boutique" },
-  { label: "Equipe", href: "/equipe" },
-  { label: "FAQ", href: "/faq" },
+  { label: "Actualites", href: "/actualites" },
+  { label: "Nos Projets", href: "/nos-projets" },
+  { label: "Extra-scolaire", href: "/extra-scolaire" },
+  { label: "Le Verseau Unplugged", href: "/le-verseau-unplugged" },
+  { label: "Questions frequentes", href: "/faq" },
+  { label: "Contact", href: "/contact" },
 ]
 
 export function Navbar() {
@@ -58,7 +60,7 @@ export function Navbar() {
             <Facebook className="h-5 w-5" />
           </Link>
           <Button size="sm" className="bg-secondary text-secondary-foreground hover:bg-secondary/90" asChild>
-            <Link href="mailto:appafondamental@eiverseau.be">Contact</Link>
+            <Link href="/boutique">Boutique</Link>
           </Button>
         </div>
 
@@ -101,7 +103,7 @@ export function Navbar() {
                 <Facebook className="h-5 w-5" />
               </Link>
               <Button size="sm" className="flex-1 bg-secondary text-secondary-foreground hover:bg-secondary/90" asChild>
-                <Link href="mailto:appafondamental@eiverseau.be">Contact</Link>
+                <Link href="/boutique">Boutique</Link>
               </Button>
             </div>
           </nav>
