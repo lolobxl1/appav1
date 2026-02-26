@@ -58,7 +58,7 @@ export function Shop() {
                     <span className="text-xs text-muted-foreground">Tailles : {product.sizes}</span>
                   )}
                 </div>
-                <Button className="mt-auto pt-5 w-full" asChild>
+                <Button className="mt-5 w-full" asChild>
                   <Link href={product.pdf} target="_blank" rel="noopener noreferrer">
                     <FileText className="mr-2 h-4 w-4" />
                     Commander
