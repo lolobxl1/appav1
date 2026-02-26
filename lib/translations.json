@@ -1,0 +1,938 @@
+[
+  {
+    "category": "menu",
+    "name": "1",
+    "value_fr": "Accueil",
+    "value_en": "Home"
+  },
+  {
+    "category": "menu",
+    "name": "2",
+    "value_fr": "A propos",
+    "value_en": "About"
+  },
+  {
+    "category": "menu",
+    "name": "3",
+    "value_fr": "Actualites",
+    "value_en": "News"
+  },
+  {
+    "category": "menu",
+    "name": "4",
+    "value_fr": "Nos Projets",
+    "value_en": "Our Projects"
+  },
+  {
+    "category": "menu",
+    "name": "5",
+    "value_fr": "Questions frequentes",
+    "value_en": "FAQ"
+  },
+  {
+    "category": "menu",
+    "name": "6",
+    "value_fr": "Boutique",
+    "value_en": "Shop"
+  },
+  {
+    "category": "menu",
+    "name": "7",
+    "value_fr": "Contact",
+    "value_en": "Contact"
+  },
+  {
+    "category": "navbar",
+    "name": "open_menu",
+    "value_fr": "Ouvrir le menu",
+    "value_en": "Open menu"
+  },
+  {
+    "category": "navbar",
+    "name": "close_menu",
+    "value_fr": "Fermer le menu",
+    "value_en": "Close menu"
+  },
+  {
+    "category": "home",
+    "name": "hero_label",
+    "value_fr": "Association des Parents",
+    "value_en": "Parents Association"
+  },
+  {
+    "category": "home",
+    "name": "main_title",
+    "value_fr": "Bienvenue !",
+    "value_en": "Welcome!"
+  },
+  {
+    "category": "home",
+    "name": "main_text",
+    "value_fr": "Nous sommes l'equipe dynamique de l'APPA : ensemble, nous promouvons le bien-etre de nos enfants et renforcons une communaute vivante et connectee de parents et d'eleves a l'Ecole Internationale Le Verseau.",
+    "value_en": "We are the dynamic APPA team: together, we promote the well-being of our children and build a vibrant, connected community of parents and students at the International School Le Verseau."
+  },
+  {
+    "category": "home",
+    "name": "hero_button",
+    "value_fr": "Decouvrir l'APPA",
+    "value_en": "Discover APPA"
+  },
+  {
+    "category": "home",
+    "name": "activities_label",
+    "value_fr": "Que fait l'APPA ?",
+    "value_en": "What does APPA do?"
+  },
+  {
+    "category": "home",
+    "name": "activities_title",
+    "value_fr": "Nos activites principales",
+    "value_en": "Our main activities"
+  },
+  {
+    "category": "home",
+    "name": "activity_1_title",
+    "value_fr": "Activites a midi",
+    "value_en": "Lunchtime activities"
+  },
+  {
+    "category": "home",
+    "name": "activity_1_text",
+    "value_fr": "Bricolage, echecs, musique, jeux de societe et bien plus pour les enfants pendant la pause du midi.",
+    "value_en": "Crafts, chess, music, board games and much more for children during the lunch break."
+  },
+  {
+    "category": "home",
+    "name": "activity_2_title",
+    "value_fr": "Evenements scolaires",
+    "value_en": "School events"
+  },
+  {
+    "category": "home",
+    "name": "activity_2_text",
+    "value_fr": "Buffet international, Chasse aux oeufs de Paques, Marche de Noel et bien d'autres evenements festifs.",
+    "value_en": "International buffet, Easter egg hunt, Christmas market and many other festive events."
+  },
+  {
+    "category": "home",
+    "name": "activity_3_title",
+    "value_fr": "Rencontres parents",
+    "value_en": "Parent meetups"
+  },
+  {
+    "category": "home",
+    "name": "activity_3_text",
+    "value_fr": "Petits-dejeuners, moments the/cafe, vide-greniers et conferences pour renforcer la communaute.",
+    "value_en": "Breakfasts, tea/coffee moments, garage sales and conferences to strengthen the community."
+  },
+  {
+    "category": "home",
+    "name": "activity_card_hover",
+    "value_fr": "En savoir plus",
+    "value_en": "Learn more"
+  },
+  {
+    "category": "home",
+    "name": "news_label",
+    "value_fr": "Actualites",
+    "value_en": "News"
+  },
+  {
+    "category": "home",
+    "name": "news_title",
+    "value_fr": "A la une",
+    "value_en": "Headlines"
+  },
+  {
+    "category": "home",
+    "name": "news_button",
+    "value_fr": "Toutes les actualites",
+    "value_en": "All news"
+  },
+  {
+    "category": "home",
+    "name": "cta_label",
+    "value_fr": "Nous avons besoin de vous",
+    "value_en": "We need you"
+  },
+  {
+    "category": "home",
+    "name": "cta_title",
+    "value_fr": "Rejoignez l'aventure",
+    "value_en": "Join the adventure"
+  },
+  {
+    "category": "home",
+    "name": "cta_text",
+    "value_fr": "Nous sommes toujours a la recherche de benevoles — meme si ce n'est que de temps en temps ! Il n'y a aucun engagement a long terme, juste une opportunite d'aider quand vous le pouvez. Chaque aide fait une grande difference !",
+    "value_en": "We are always looking for volunteers — even if it's just from time to time! There is no long-term commitment, just an opportunity to help when you can. Every bit of help makes a big difference!"
+  },
+  {
+    "category": "home",
+    "name": "cta_button",
+    "value_fr": "Nous rejoindre",
+    "value_en": "Join us"
+  },
+  {
+    "category": "about",
+    "name": "page_title",
+    "value_fr": "L'APPA, votre lien avec l'ecole",
+    "value_en": "APPA, your link with the school"
+  },
+  {
+    "category": "about",
+    "name": "page_description",
+    "value_fr": "L'Association des Parents est une garantie de communication et de transparence entre les parents, l'ecole et la communaute. Nous collaborons etroitement avec la direction pour ameliorer le quotidien de vos enfants.",
+    "value_en": "The Parents Association is a guarantee of communication and transparency between parents, the school and the community. We work closely with the management to improve the daily lives of your children."
+  },
+  {
+    "category": "about",
+    "name": "paragraph_1_title",
+    "value_fr": "Au centre, nos enfants",
+    "value_en": "Children at the centre"
+  },
+  {
+    "category": "about",
+    "name": "paragraph_1_text_1",
+    "value_fr": "Notre premiere priorite est le bien-etre de nos enfants. Toutes les activites de l'APPA sont donc centrees sur eux, et sur leurs parents.",
+    "value_en": "Our first priority is the well-being of our children. All APPA activities are therefore centred on them, and on their parents."
+  },
+  {
+    "category": "about",
+    "name": "paragraph_1_text_2",
+    "value_fr": "Activite phare pour les enfants, nous organisons des activites ludiques durant la pause de midi avec l'aide de parents motives : bricolage et art, echecs et jeux de societe !",
+    "value_en": "A flagship activity for children, we organise fun activities during the lunch break with the help of motivated parents: crafts and art, chess and board games!"
+  },
+  {
+    "category": "about",
+    "name": "paragraph_1_text_3",
+    "value_fr": "L'APPA organise aussi la Chasse aux oeufs de Paques, en offrant de bons oeufs en chocolat, avec un parent deguise(e) en Lapin de Paques pour venir visiter les classes de maternelles.",
+    "value_en": "APPA also organises the Easter Egg Hunt, offering delicious chocolate eggs, with a parent dressed as the Easter Bunny to visit the nursery classes."
+  },
+  {
+    "category": "about",
+    "name": "paragraph_2_title",
+    "value_fr": "Communaute connectee",
+    "value_en": "Connected community"
+  },
+  {
+    "category": "about",
+    "name": "paragraph_2_text_1",
+    "value_fr": "L'Association des Parents APPA est un pilier essentiel de l'ecole.",
+    "value_en": "The APPA Parents Association is an essential pillar of the school."
+  },
+  {
+    "category": "about",
+    "name": "paragraph_2_text_2",
+    "value_fr": "Nous offrons un soutien concret lors des grands evenements scolaires : organisation du Buffet international, collaboration lors des fetes d'ecole (tenue de stands, etc.) et bien d'autres.",
+    "value_en": "We provide concrete support during major school events: organising the International Buffet, collaborating during school parties (running stands, etc.) and much more."
+  },
+  {
+    "category": "about",
+    "name": "paragraph_2_text_3",
+    "value_fr": "Nous organisons egalement des rencontres pour les parents : petits-dejeuners, moments the/cafe, vide-greniers et conferences enrichissantes, pour renforcer les liens et partager des experiences.",
+    "value_en": "We also organise meetings for parents: breakfasts, tea/coffee moments, garage sales and enriching conferences, to strengthen bonds and share experiences."
+  },
+  {
+    "category": "about",
+    "name": "paragraph_2_text_4",
+    "value_fr": "Ensemble, nous batissons une communaute solide et bienveillante.",
+    "value_en": "Together, we build a strong and caring community."
+  },
+  {
+    "category": "about",
+    "name": "paragraph_3_title",
+    "value_fr": "Votre voix, notre action",
+    "value_en": "Your voice, our action"
+  },
+  {
+    "category": "about",
+    "name": "paragraph_3_text_1",
+    "value_fr": "Nous jouons un role cle dans la democratie de l'ecole. Grace a nos delegues, nous assurons que les questions et les preoccupations des parents sont entendues et prises en compte lors du Conseil de Participation, par la direction de l'ecole, et par les asbl Les Amis du Verseau et VSAL.",
+    "value_en": "We play a key role in school democracy. Through our delegates, we ensure that parents' questions and concerns are heard and taken into account during the Participation Council, by the school management, and by the non-profit organisations Les Amis du Verseau and VSAL."
+  },
+  {
+    "category": "about",
+    "name": "paragraph_3_text_2",
+    "value_fr": "L'APPA est la pour vous representer, agir et ameliorer continuellement la vie scolaire pour tous.",
+    "value_en": "APPA is here to represent you, act and continuously improve school life for everyone."
+  },
+  {
+    "category": "news",
+    "name": "page_title",
+    "value_fr": "Nos actualites",
+    "value_en": "Our news"
+  },
+  {
+    "category": "news",
+    "name": "page_description",
+    "value_fr": "Retrouvez toutes les dernieres nouvelles, evenements et annonces de l'APPA et de l'ecole Le Verseau.",
+    "value_en": "Find all the latest news, events and announcements from APPA and Le Verseau school."
+  },
+  {
+    "category": "news",
+    "name": "filter_all",
+    "value_fr": "Tout",
+    "value_en": "All"
+  },
+  {
+    "category": "news",
+    "name": "filter_headline",
+    "value_fr": "A la une",
+    "value_en": "Headlines"
+  },
+  {
+    "category": "news",
+    "name": "filter_shop",
+    "value_fr": "Boutique",
+    "value_en": "Shop"
+  },
+  {
+    "category": "news",
+    "name": "filter_primary",
+    "value_fr": "Fondamental",
+    "value_en": "Primary"
+  },
+  {
+    "category": "news",
+    "name": "filter_secondary",
+    "value_fr": "Secondaire",
+    "value_en": "Secondary"
+  },
+  {
+    "category": "news",
+    "name": "empty_state",
+    "value_fr": "Aucun article dans cette categorie pour le moment.",
+    "value_en": "No articles in this category at the moment."
+  },
+  {
+    "category": "news",
+    "name": "back_button",
+    "value_fr": "Retour aux actualites",
+    "value_en": "Back to news"
+  },
+  {
+    "category": "article",
+    "name": "whatsapp_title",
+    "value_fr": "WhatsApp Community — Restez connectes entre parents !",
+    "value_en": "WhatsApp Community — Stay connected between parents!"
+  },
+  {
+    "category": "article",
+    "name": "whatsapp_description",
+    "value_fr": "La communication entre parents se fait principalement via la communaute WhatsApp du Verseau. Decouvrez les groupes disponibles et comment les rejoindre.",
+    "value_en": "Communication between parents is mainly done via the Le Verseau WhatsApp community. Discover the available groups and how to join them."
+  },
+  {
+    "category": "article",
+    "name": "whatsapp_content_1",
+    "value_fr": "La communaute WhatsApp Le Verseau est le canal principal de communication entre parents. Elle regroupe plusieurs types de groupes pour faciliter les echanges, l'entraide et la coordination au quotidien.",
+    "value_en": "The Le Verseau WhatsApp community is the main communication channel between parents. It brings together several types of groups to facilitate exchanges, mutual help and daily coordination."
+  },
+  {
+    "category": "article",
+    "name": "whatsapp_content_2",
+    "value_fr": "Groupes classes — Chaque classe dispose de son propre groupe prive, permettant aux parents de s'entre-aider sur les activites de la classe : devoirs, excursions, informations pratiques. Les groupes sont organises par niveau : MAT (maternelle), PRI (primaire) et SEC (secondaire).",
+    "value_en": "Class groups — Each class has its own private group, allowing parents to help each other with class activities: homework, excursions, practical information. Groups are organised by level: MAT (nursery), PRI (primary) and SEC (secondary)."
+  },
+  {
+    "category": "article",
+    "name": "whatsapp_content_3",
+    "value_fr": "Networking — Des groupes optionnels sont disponibles pour les parents selon leurs points communs : MAT - Maternelle Parents, PRI - Primary Parents, SEC - Secondary Parents, APPA - Second hands, ALL - CARPOOL, Parents de Ville, et Le Verseau Unplugged (avec un sous-groupe iPad pour le secondaire).",
+    "value_en": "Networking — Optional groups are available for parents based on common interests: MAT - Nursery Parents, PRI - Primary Parents, SEC - Secondary Parents, APPA - Second hands, ALL - CARPOOL, City Parents, and Le Verseau Unplugged (with an iPad subgroup for secondary)."
+  },
+  {
+    "category": "article",
+    "name": "whatsapp_content_4",
+    "value_fr": "Groupes APPA — Pour un echange plus direct entre les parents et l'association : APPA - Events pour les evenements, APPA - Feedbacks pour vos retours, et APPA - Ideas & Volunteers pour proposer des idees ou se porter volontaire.",
+    "value_en": "APPA groups — For a more direct exchange between parents and the association: APPA - Events for events, APPA - Feedbacks for your feedback, and APPA - Ideas & Volunteers to propose ideas or volunteer."
+  },
+  {
+    "category": "article",
+    "name": "whatsapp_content_5",
+    "value_fr": "Coordination d'activites — Des groupes dedies permettent de coordonner certaines activites APPA, comme les jeux de societe et echecs du midi pour les enfants en primaire (PRI - APPA Lunch Activities) ou le projet potager (PRI - APPA Projet Potager).",
+    "value_en": "Activity coordination — Dedicated groups allow coordination of certain APPA activities, such as lunchtime board games and chess for primary children (PRI - APPA Lunch Activities) or the garden project (PRI - APPA Garden Project)."
+  },
+  {
+    "category": "article",
+    "name": "whatsapp_content_6",
+    "value_fr": "N'hesitez pas a rejoindre les groupes qui vous interessent ! Contactez vos delegues de classe ou l'APPA pour recevoir les liens d'invitation.",
+    "value_en": "Don't hesitate to join the groups that interest you! Contact your class delegates or APPA to receive the invitation links."
+  },
+  {
+    "category": "article",
+    "name": "lanternes_title",
+    "value_fr": "Marche familiale aux lanternes - Fete des lumieres",
+    "value_en": "Family lantern walk - Festival of lights"
+  },
+  {
+    "category": "article",
+    "name": "lanternes_description",
+    "value_fr": "Rejoignez-nous pour une balade enchantee en famille avec des lanternes faites maison.",
+    "value_en": "Join us for an enchanted family walk with homemade lanterns."
+  },
+  {
+    "category": "article",
+    "name": "lanternes_content_1",
+    "value_fr": "La traditionnelle marche aux lanternes aura lieu cette annee encore dans le cadre magique du parc de l'ecole. Petits et grands sont invites a confectionner leurs propres lanternes lors des ateliers organises en classe, avant de les porter fierement lors de la balade du soir.",
+    "value_en": "The traditional lantern walk will take place again this year in the magical setting of the school park. Young and old are invited to make their own lanterns during workshops organised in class, before proudly carrying them during the evening walk."
+  },
+  {
+    "category": "article",
+    "name": "lanternes_content_2",
+    "value_fr": "Le depart est prevu a 17h30 depuis l'entree principale de l'ecole. Un parcours securise d'environ 2 km a ete trace a travers le quartier, avec des haltes musicales et des surprises tout au long du chemin.",
+    "value_en": "Departure is scheduled at 5:30 PM from the main entrance of the school. A secure route of approximately 2 km has been mapped through the neighbourhood, with musical stops and surprises along the way."
+  },
+  {
+    "category": "article",
+    "name": "lanternes_content_3",
+    "value_fr": "A l'arrivee, un chocolat chaud et des gaufres seront offerts par l'APPA. N'oubliez pas de vous habiller chaudement et d'apporter une bougie de rechange pour votre lanterne !",
+    "value_en": "On arrival, hot chocolate and waffles will be offered by APPA. Don't forget to dress warmly and bring a spare candle for your lantern!"
+  },
+  {
+    "category": "article",
+    "name": "sondage_title",
+    "value_fr": "Resultats du sondage Le Verseau Unplugged 2025-2026",
+    "value_en": "Results of the Le Verseau Unplugged 2025-2026 survey"
+  },
+  {
+    "category": "article",
+    "name": "sondage_description",
+    "value_fr": "Decouvrez les resultats complets de notre sondage annuel sur la vie scolaire et les activites.",
+    "value_en": "Discover the full results of our annual survey on school life and activities."
+  },
+  {
+    "category": "article",
+    "name": "sondage_content_1",
+    "value_fr": "Le sondage Le Verseau Unplugged a recueilli cette annee plus de 350 reponses de parents, un record de participation ! Nous vous remercions pour votre engagement et votre confiance.",
+    "value_en": "The Le Verseau Unplugged survey received more than 350 responses from parents this year, a participation record! We thank you for your commitment and trust."
+  },
+  {
+    "category": "article",
+    "name": "sondage_content_2",
+    "value_fr": "Parmi les points forts qui ressortent : 87% des parents se declarent satisfaits de la communication entre l'ecole et les familles, et 92% souhaitent voir se poursuivre les activites extrascolaires du midi.",
+    "value_en": "Among the highlights: 87% of parents say they are satisfied with communication between the school and families, and 92% want to see lunchtime extracurricular activities continue."
+  },
+  {
+    "category": "article",
+    "name": "sondage_content_3",
+    "value_fr": "Les principaux axes d'amelioration identifies portent sur la cantine (qualite et variete des menus) et sur le suivi numerique des devoirs. Le comite de l'APPA travaillera avec la direction de l'ecole pour aborder ces points des le prochain trimestre.",
+    "value_en": "The main areas for improvement identified relate to the canteen (quality and variety of menus) and digital homework tracking. The APPA committee will work with the school management to address these points from next term."
+  },
+  {
+    "category": "article",
+    "name": "goodies_title",
+    "value_fr": "Illuminez la saison avec nos goodies de Noel !",
+    "value_en": "Light up the season with our Christmas goodies!"
+  },
+  {
+    "category": "article",
+    "name": "goodies_description",
+    "value_fr": "Sweatshirts, t-shirts et plus encore — soutenez l'ecole tout en offrant de beaux cadeaux.",
+    "value_en": "Sweatshirts, t-shirts and more — support the school while giving beautiful gifts."
+  },
+  {
+    "category": "article",
+    "name": "goodies_content_1",
+    "value_fr": "Les fetes de fin d'annee approchent et c'est le moment ideal pour decouvrir notre collection speciale Noel ! Cette annee, nous proposons des sweatshirts brodes aux couleurs de l'ecole, des t-shirts serigraphies et des accessoires exclusifs.",
+    "value_en": "The end-of-year holidays are approaching and it's the perfect time to discover our special Christmas collection! This year, we offer embroidered sweatshirts in school colours, screen-printed t-shirts and exclusive accessories."
+  },
+  {
+    "category": "article",
+    "name": "goodies_content_2",
+    "value_fr": "Tous les benefices de ces ventes sont directement reinvestis dans les projets de l'APPA : activites du midi, sorties scolaires, materiel pedagogique et evenements festifs.",
+    "value_en": "All profits from these sales are directly reinvested in APPA projects: lunchtime activities, school trips, teaching materials and festive events."
+  },
+  {
+    "category": "article",
+    "name": "goodies_content_3",
+    "value_fr": "Les commandes peuvent etre passees en ligne ou directement aupres de vos delegues de classe. Date limite de commande pour une livraison avant Noel : le 8 decembre.",
+    "value_en": "Orders can be placed online or directly with your class delegates. Order deadline for delivery before Christmas: 8 December."
+  },
+  {
+    "category": "article",
+    "name": "rallye_title",
+    "value_fr": "Rallye lecture : une seconde vie pour les livres !",
+    "value_en": "Reading rally: a second life for books!"
+  },
+  {
+    "category": "article",
+    "name": "rallye_description",
+    "value_fr": "Echangez des livres entre familles et donnez le gout de la lecture a vos enfants.",
+    "value_en": "Exchange books between families and give your children a taste for reading."
+  },
+  {
+    "category": "article",
+    "name": "rallye_content_1",
+    "value_fr": "Le rallye lecture est l'une des initiatives les plus appreciees de l'APPA. Le concept est simple : chaque enfant apporte un ou plusieurs livres qu'il a deja lus, et repart avec de nouvelles lectures choisies parmi les dons des autres familles.",
+    "value_en": "The reading rally is one of APPA's most appreciated initiatives. The concept is simple: each child brings one or more books they have already read, and leaves with new reads chosen from donations by other families."
+  },
+  {
+    "category": "article",
+    "name": "rallye_content_2",
+    "value_fr": "Cette annee, nous elargissons le rallye aux bandes dessinees et aux livres en langues etrangeres, pour refleter la diversite linguistique de notre ecole internationale.",
+    "value_en": "This year, we are expanding the rally to include comic books and books in foreign languages, to reflect the linguistic diversity of our international school."
+  },
+  {
+    "category": "article",
+    "name": "rallye_content_3",
+    "value_fr": "L'evenement se tiendra dans la salle polyvalente le vendredi 28 novembre, de 12h a 15h. Les enfants du fondamental seront accompagnes par leurs enseignants. Une belle facon de promouvoir la lecture et le partage !",
+    "value_en": "The event will take place in the multipurpose hall on Friday 28 November, from 12pm to 3pm. Primary children will be accompanied by their teachers. A wonderful way to promote reading and sharing!"
+  },
+  {
+    "category": "article",
+    "name": "paques_title",
+    "value_fr": "Chasse aux oeufs de Paques 2026",
+    "value_en": "Easter Egg Hunt 2026"
+  },
+  {
+    "category": "article",
+    "name": "paques_description",
+    "value_fr": "Chaque annee, l'APPA organise une chasse aux oeufs geante dans le jardin de l'ecole.",
+    "value_en": "Every year, APPA organises a giant Easter egg hunt in the school garden."
+  },
+  {
+    "category": "article",
+    "name": "paques_content_1",
+    "value_fr": "Preparez vos paniers ! La grande chasse aux oeufs de Paques de l'APPA revient pour une nouvelle edition haute en couleurs dans les jardins de l'ecole Le Verseau.",
+    "value_en": "Get your baskets ready! APPA's grand Easter egg hunt returns for a new colourful edition in the gardens of Le Verseau school."
+  },
+  {
+    "category": "article",
+    "name": "paques_content_2",
+    "value_fr": "Les enfants seront repartis par tranches d'age pour garantir un partage equitable du butin chocolat. Des animations, maquillages et jeux seront egalement proposes tout au long de l'apres-midi.",
+    "value_en": "Children will be divided by age group to ensure fair sharing of the chocolate loot. Entertainment, face painting and games will also be available throughout the afternoon."
+  },
+  {
+    "category": "article",
+    "name": "paques_content_3",
+    "value_fr": "Rendez-vous le samedi 5 avril 2026 a partir de 14h. En cas de pluie, l'evenement sera deplace dans le gymnase. L'entree est gratuite pour toutes les familles de l'ecole.",
+    "value_en": "See you on Saturday 5 April 2026 from 2pm. In case of rain, the event will be moved to the gymnasium. Entry is free for all school families."
+  },
+  {
+    "category": "article",
+    "name": "buffet_title",
+    "value_fr": "Buffet international — Soiree des cultures",
+    "value_en": "International Buffet — Evening of cultures"
+  },
+  {
+    "category": "article",
+    "name": "buffet_description",
+    "value_fr": "Partagez vos specialites culinaires lors de notre grand buffet multiculturel annuel.",
+    "value_en": "Share your culinary specialities at our annual multicultural buffet."
+  },
+  {
+    "category": "article",
+    "name": "buffet_content_1",
+    "value_fr": "La Soiree des cultures est l'un des moments forts de l'annee scolaire. Chaque famille est invitee a preparer un plat typique de son pays ou de sa region, transformant le refectoire en un veritable tour du monde culinaire.",
+    "value_en": "The Evening of Cultures is one of the highlights of the school year. Each family is invited to prepare a typical dish from their country or region, turning the cafeteria into a real culinary world tour."
+  },
+  {
+    "category": "article",
+    "name": "buffet_content_2",
+    "value_fr": "L'an dernier, plus de 60 plats differents representant 25 nationalites ont ete partages. De la moussaka grecque au bobotie sud-africain, en passant par les nems vietnamiens et la tarte au sucre quebecoise, chacun y trouve son bonheur.",
+    "value_en": "Last year, more than 60 different dishes representing 25 nationalities were shared. From Greek moussaka to South African bobotie, via Vietnamese spring rolls and Quebec sugar pie, there is something for everyone."
+  },
+  {
+    "category": "article",
+    "name": "buffet_content_3",
+    "value_fr": "La soiree sera agrementee de musiques du monde et d'une presentation des traditions de chaque pays participant. Inscription des plats aupres de vos delegues de classe avant le 15 novembre.",
+    "value_en": "The evening will be enhanced with world music and a presentation of the traditions of each participating country. Register your dishes with your class delegates before 15 November."
+  },
+  {
+    "category": "article",
+    "name": "echecs_title",
+    "value_fr": "Atelier echecs — Inscriptions ouvertes",
+    "value_en": "Chess workshop — Registrations open"
+  },
+  {
+    "category": "article",
+    "name": "echecs_description",
+    "value_fr": "Les ateliers echecs du midi reprennent ! Inscrivez vos enfants pour ce trimestre.",
+    "value_en": "Lunchtime chess workshops are back! Register your children for this term."
+  },
+  {
+    "category": "article",
+    "name": "echecs_content_1",
+    "value_fr": "Les ateliers echecs, animes par un maitre federatif benevole, reprennent chaque mardi et jeudi midi pour les eleves de la 3e a la 6e primaire. Debutants et joueurs confirmes sont les bienvenus.",
+    "value_en": "Chess workshops, led by a volunteer master, resume every Tuesday and Thursday lunchtime for students from 3rd to 6th grade. Beginners and experienced players are welcome."
+  },
+  {
+    "category": "article",
+    "name": "echecs_content_2",
+    "value_fr": "Les echecs developpent la concentration, la logique et la patience. C'est aussi une activite sociale ou les enfants apprennent le fair-play et la gestion des emotions.",
+    "value_en": "Chess develops concentration, logic and patience. It is also a social activity where children learn fair play and emotion management."
+  },
+  {
+    "category": "article",
+    "name": "echecs_content_3",
+    "value_fr": "L'inscription est gratuite et se fait en ligne via le formulaire de l'APPA. Les places sont limitees a 20 enfants par seance. Un tournoi inter-classes sera organise en fin de trimestre avec des recompenses pour tous les participants.",
+    "value_en": "Registration is free and done online via the APPA form. Places are limited to 20 children per session. An inter-class tournament will be organised at the end of the term with rewards for all participants."
+  },
+  {
+    "category": "article",
+    "name": "collection_title",
+    "value_fr": "Nouvelle collection boutique disponible",
+    "value_en": "New shop collection available"
+  },
+  {
+    "category": "article",
+    "name": "collection_description",
+    "value_fr": "Decouvrez les nouveaux sweatshirts et t-shirts officiels Le Verseau pour cette annee.",
+    "value_en": "Discover the new official Le Verseau sweatshirts and t-shirts for this year."
+  },
+  {
+    "category": "article",
+    "name": "collection_content_1",
+    "value_fr": "La boutique de l'APPA fait peau neuve ! Nous sommes fiers de vous presenter la nouvelle collection 2025-2026 d'articles aux couleurs de l'ecole Le Verseau.",
+    "value_en": "The APPA shop has had a makeover! We are proud to present the new 2025-2026 collection of items in Le Verseau school colours."
+  },
+  {
+    "category": "article",
+    "name": "collection_content_2",
+    "value_fr": "Au programme : des sweatshirts en coton bio disponibles du 4 ans au XXL adulte, des t-shirts manches courtes et longues, ainsi que des casquettes et des sacs en toile. Tous les articles arborent le nouveau logo de l'ecole.",
+    "value_en": "On the programme: organic cotton sweatshirts available from age 4 to adult XXL, short and long sleeve t-shirts, as well as caps and canvas bags. All items feature the new school logo."
+  },
+  {
+    "category": "article",
+    "name": "collection_content_3",
+    "value_fr": "Les prix restent accessibles grace a notre partenariat avec un fournisseur local engage dans le developpement durable. Les benefices financent directement les activites et projets de l'APPA.",
+    "value_en": "Prices remain affordable thanks to our partnership with a local supplier committed to sustainable development. Profits directly fund APPA activities and projects."
+  },
+  {
+    "category": "projects",
+    "name": "page_title",
+    "value_fr": "Ensemble, nous faisons la difference",
+    "value_en": "Together, we make a difference"
+  },
+  {
+    "category": "projects",
+    "name": "page_description",
+    "value_fr": "Decouvrez les projets concrets que nous avons pu financer grace a votre soutien et a l'engagement de notre association. A l'APPA, nous sommes convaincus qu'ensemble, avec un budget leger, nous pouvons faire beaucoup pour notre ecole et creer une reelle plus-value pour nos enfants.",
+    "value_en": "Discover the concrete projects we have been able to fund thanks to your support and the commitment of our association. At APPA, we are convinced that together, with a modest budget, we can do a lot for our school and create real added value for our children."
+  },
+  {
+    "category": "projects",
+    "name": "intro_text",
+    "value_fr": "Chaque initiative compte et contribue a un environnement scolaire plus riche et epanouissant. Voyez par vous-meme comment vos contributions se transforment en sourires et en apprentissages.",
+    "value_en": "Every initiative counts and contributes to a richer and more fulfilling school environment. See for yourself how your contributions turn into smiles and learning."
+  },
+  {
+    "category": "projects",
+    "name": "project_1_title",
+    "value_fr": "Un potager pour eveiller les sens",
+    "value_en": "A garden to awaken the senses"
+  },
+  {
+    "category": "projects",
+    "name": "project_1_text",
+    "value_fr": "Grace a votre generosite, et le dur labeur de parents, nous avons pu installer un magnifique projet de potager en primaire. Cette initiative permet aux enfants de se connecter directement a la nature, d'apprendre d'ou viennent les aliments et de developper une conscience ecologique des leur plus jeune age. Un enrichissement precieux pour leur developpement et leur bien-etre.",
+    "value_en": "Thanks to your generosity, and the hard work of parents, we were able to install a magnificent garden project in primary school. This initiative allows children to connect directly with nature, learn where food comes from and develop ecological awareness from a young age. A valuable enrichment for their development and well-being."
+  },
+  {
+    "category": "projects",
+    "name": "project_2_title",
+    "value_fr": "Des jeux pour egayer la cour",
+    "value_en": "Games to brighten up the playground"
+  },
+  {
+    "category": "projects",
+    "name": "project_2_text",
+    "value_fr": "Nous avons egalement investi dans de nouveaux jeux et amenagements pour la cour de recreation. Ces equipements offrent aux enfants un espace de jeu stimulant et securise, favorisant l'activite physique, l'imagination et les interactions sociales. Le benefice principal ? Des moments de joie et d'epanouissement pour tous les eleves, jour apres jour.",
+    "value_en": "We also invested in new games and facilities for the playground. This equipment provides children with a stimulating and safe play space, promoting physical activity, imagination and social interactions. The main benefit? Moments of joy and fulfilment for all students, day after day."
+  },
+  {
+    "category": "projects",
+    "name": "project_3_title",
+    "value_fr": "La magie de Paques a l'ecole",
+    "value_en": "The magic of Easter at school"
+  },
+  {
+    "category": "projects",
+    "name": "project_3_text",
+    "value_fr": "Chaque annee, grace aux fonds collectes, nous organisons une memorable chasse aux oeufs de Paques. Cet evenement est une occasion formidable de creer de la magie et de la convivialite au sein de l'ecole. Voir les yeux brillants des enfants cherchant leurs tresors est le plus beau des retours, et nous permet de continuer a faire vivre ces traditions si cheres.",
+    "value_en": "Every year, thanks to the funds collected, we organise a memorable Easter egg hunt. This event is a great opportunity to create magic and conviviality within the school. Seeing the shining eyes of children searching for their treasures is the most beautiful reward, and allows us to continue these cherished traditions."
+  },
+  {
+    "category": "projects",
+    "name": "cta_text",
+    "value_fr": "Vous avez une idee de projet ? L'APPA est toujours a la recherche de nouvelles initiatives pour ameliorer la vie de nos enfants a l'ecole.",
+    "value_en": "Do you have a project idea? APPA is always looking for new initiatives to improve the lives of our children at school."
+  },
+  {
+    "category": "projects",
+    "name": "cta_button",
+    "value_fr": "Contactez-nous",
+    "value_en": "Contact us"
+  },
+  {
+    "category": "faq",
+    "name": "page_title",
+    "value_fr": "Questions frequentes",
+    "value_en": "Frequently asked questions"
+  },
+  {
+    "category": "faq",
+    "name": "page_description",
+    "value_fr": "Une question merite une reponse. C'est certain !",
+    "value_en": "A question deserves an answer. That's for sure!"
+  },
+  {
+    "category": "faq",
+    "name": "category_general",
+    "value_fr": "General",
+    "value_en": "General"
+  },
+  {
+    "category": "faq",
+    "name": "category_fondamental",
+    "value_fr": "Fondamental",
+    "value_en": "Primary"
+  },
+  {
+    "category": "faq",
+    "name": "category_secondaire",
+    "value_fr": "Secondaire",
+    "value_en": "Secondary"
+  },
+  {
+    "category": "faq",
+    "name": "copy_link",
+    "value_fr": "Copier le lien",
+    "value_en": "Copy link"
+  },
+  {
+    "category": "faq",
+    "name": "q_appa",
+    "value_fr": "Qu'est-ce que l'APPA ?",
+    "value_en": "What is APPA?"
+  },
+  {
+    "category": "faq",
+    "name": "a_appa",
+    "value_fr": "L'APPA (Association des Parents) est une organisation independante de parents benevoles qui collabore avec la direction de l'Ecole Internationale Le Verseau pour ameliorer le bien-etre des eleves et renforcer la communaute scolaire.",
+    "value_en": "APPA (Parents Association) is an independent organisation of volunteer parents that collaborates with the management of the International School Le Verseau to improve student well-being and strengthen the school community."
+  },
+  {
+    "category": "faq",
+    "name": "q_benevole",
+    "value_fr": "Comment puis-je devenir benevole ?",
+    "value_en": "How can I become a volunteer?"
+  },
+  {
+    "category": "faq",
+    "name": "a_benevole",
+    "value_fr": "Nous sommes toujours a la recherche de benevoles — meme si ce n'est que de temps en temps ! Il n'y a aucun engagement a long terme, juste une opportunite d'aider quand vous le pouvez. Contactez-nous par e-mail ou remplissez notre formulaire.",
+    "value_en": "We are always looking for volunteers — even if it's just from time to time! There is no long-term commitment, just an opportunity to help when you can. Contact us by email or fill in our form."
+  },
+  {
+    "category": "faq",
+    "name": "q_communication",
+    "value_fr": "Comment communiquez-vous avec les parents ?",
+    "value_en": "How do you communicate with parents?"
+  },
+  {
+    "category": "faq",
+    "name": "a_communication",
+    "value_fr": "Nous communiquons via e-mail, notre page Facebook, et notre site web. Nous organisons egalement des reunions regulieres ouvertes a tous les parents.",
+    "value_en": "We communicate via email, our Facebook page, and our website. We also organise regular meetings open to all parents."
+  },
+  {
+    "category": "faq",
+    "name": "q_anglais",
+    "value_fr": "More English Please — Que fait l'APPA pour augmenter l'exposition a l'anglais ?",
+    "value_en": "More English Please — What is APPA doing to increase English exposure?"
+  },
+  {
+    "category": "faq",
+    "name": "a_anglais",
+    "value_fr": "L'APPA traite cette question en priorite. Des mesures sont en cours : films en anglais pendant les jours pluvieux, expansion des activites extra-scolaires en anglais, et a long terme, des correspondants anglophones et des voyages scolaires.",
+    "value_en": "APPA treats this issue as a priority. Measures are underway: English films on rainy days, expansion of extracurricular activities in English, and in the long term, English-speaking pen pals and school trips."
+  },
+  {
+    "category": "faq",
+    "name": "q_toilettes",
+    "value_fr": "Proprete des toilettes — Quelles mesures sont prises ?",
+    "value_en": "Toilet cleanliness — What measures are being taken?"
+  },
+  {
+    "category": "faq",
+    "name": "a_toilettes",
+    "value_fr": "Les toilettes sont nettoyees deux fois par jour. L'ecole dispose de 11 blocs sanitaires avec 33 toilettes individuelles. Un projet de re-decoration propose par l'APPA a ete soumis au vote et pourrait voir le jour via un chantier participatif.",
+    "value_en": "Toilets are cleaned twice a day. The school has 11 sanitary blocks with 33 individual toilets. A redecoration project proposed by APPA has been put to a vote and could be realised through a participatory workshop."
+  },
+  {
+    "category": "faq",
+    "name": "q_gouters",
+    "value_fr": "Garderie & gouters sante — Quelle coherence ?",
+    "value_en": "After-school care & healthy snacks — What consistency?"
+  },
+  {
+    "category": "faq",
+    "name": "a_gouters",
+    "value_fr": "L'ecole encourage les en-cas sains dans les cartables. En garderie, une diversite est maintenue : fruits, crudites, mais aussi biscuits secs. L'objectif est de former des enfants a des choix responsables tout en ne stigmatisant aucun aliment.",
+    "value_en": "The school encourages healthy snacks in schoolbags. In after-school care, diversity is maintained: fruits, raw vegetables, but also dry biscuits. The aim is to train children to make responsible choices without stigmatising any food."
+  },
+  {
+    "category": "faq",
+    "name": "q_secondaire",
+    "value_fr": "Quelles sont les questions traitees pour le secondaire ?",
+    "value_en": "What questions are addressed for secondary school?"
+  },
+  {
+    "category": "faq",
+    "name": "a_secondaire",
+    "value_fr": "Nous regroupons les questions remontees par les parents du secondaire. N'hesitez pas a nous contacter a appasecondaire@eiverseau.be pour nous faire part de vos questions.",
+    "value_en": "We compile questions raised by secondary school parents. Don't hesitate to contact us at appasecondaire@eiverseau.be to share your questions."
+  },
+  {
+    "category": "shop",
+    "name": "page_title",
+    "value_fr": "C'est notre boutique",
+    "value_en": "This is our shop"
+  },
+  {
+    "category": "shop",
+    "name": "page_description",
+    "value_fr": "Soutenez l'ecole et affichez vos couleurs avec nos articles officiels Le Verseau.",
+    "value_en": "Support the school and show your colours with our official Le Verseau items."
+  },
+  {
+    "category": "shop",
+    "name": "product_1_name",
+    "value_fr": "Sweatshirt Le Verseau",
+    "value_en": "Le Verseau Sweatshirt"
+  },
+  {
+    "category": "shop",
+    "name": "product_1_description",
+    "value_fr": "Sweatshirt confortable aux couleurs de l'ecole, ideal pour les journees fraiches. Disponible en plusieurs tailles enfant et adulte.",
+    "value_en": "Comfortable sweatshirt in school colours, ideal for cool days. Available in multiple child and adult sizes."
+  },
+  {
+    "category": "shop",
+    "name": "product_1_price",
+    "value_fr": "22,00 - 27,00",
+    "value_en": "22.00 - 27.00"
+  },
+  {
+    "category": "shop",
+    "name": "product_2_name",
+    "value_fr": "T-shirt Le Verseau",
+    "value_en": "Le Verseau T-shirt"
+  },
+  {
+    "category": "shop",
+    "name": "product_2_description",
+    "value_fr": "T-shirt officiel de l'ecole, leger et agreable a porter au quotidien. Disponible en plusieurs tailles.",
+    "value_en": "Official school t-shirt, light and comfortable to wear every day. Available in multiple sizes."
+  },
+  {
+    "category": "shop",
+    "name": "product_2_price",
+    "value_fr": "10,00",
+    "value_en": "10.00"
+  },
+  {
+    "category": "shop",
+    "name": "product_3_name",
+    "value_fr": "Photos de classe",
+    "value_en": "Class photos"
+  },
+  {
+    "category": "shop",
+    "name": "product_3_description",
+    "value_fr": "Commandez les photos de classe de vos enfants : photo individuelle, photo de classe et photo de fratrie.",
+    "value_en": "Order your children's class photos: individual photo, class photo and sibling photo."
+  },
+  {
+    "category": "shop",
+    "name": "product_3_price",
+    "value_fr": "A partir de 8,00",
+    "value_en": "From 8.00"
+  },
+  {
+    "category": "shop",
+    "name": "sizes_label",
+    "value_fr": "Tailles",
+    "value_en": "Sizes"
+  },
+  {
+    "category": "shop",
+    "name": "order_button",
+    "value_fr": "Commander",
+    "value_en": "Order"
+  },
+  {
+    "category": "contact",
+    "name": "page_title",
+    "value_fr": "Une equipe solide",
+    "value_en": "A strong team"
+  },
+  {
+    "category": "contact",
+    "name": "page_description",
+    "value_fr": "Une chaine faite de maillons qui forment une equipe devouee au bien-etre de vos enfants.",
+    "value_en": "A chain made of links that form a team dedicated to the well-being of your children."
+  },
+  {
+    "category": "contact",
+    "name": "team_1_title",
+    "value_fr": "APPA Fondamental",
+    "value_en": "APPA Primary"
+  },
+  {
+    "category": "contact",
+    "name": "team_1_members",
+    "value_fr": "Gaia, Vanessa, Margot, Caroline, Stephane",
+    "value_en": "Gaia, Vanessa, Margot, Caroline, Stephane"
+  },
+  {
+    "category": "contact",
+    "name": "team_1_email",
+    "value_fr": "appafondamental@eiverseau.be",
+    "value_en": "appafondamental@eiverseau.be"
+  },
+  {
+    "category": "contact",
+    "name": "team_2_title",
+    "value_fr": "APPA Secondaire",
+    "value_en": "APPA Secondary"
+  },
+  {
+    "category": "contact",
+    "name": "team_2_members",
+    "value_fr": "Jessica, Caty, Nerea, Maria Fernanda",
+    "value_en": "Jessica, Caty, Nerea, Maria Fernanda"
+  },
+  {
+    "category": "contact",
+    "name": "team_2_email",
+    "value_fr": "appasecondaire@eiverseau.be",
+    "value_en": "appasecondaire@eiverseau.be"
+  },
+  {
+    "category": "contact",
+    "name": "social_text",
+    "value_fr": "Suivez-nous sur les reseaux",
+    "value_en": "Follow us on social media"
+  },
+  {
+    "category": "footer",
+    "name": "org_name",
+    "value_fr": "APPA",
+    "value_en": "APPA"
+  },
+  {
+    "category": "footer",
+    "name": "org_description",
+    "value_fr": "Association des Parents de l'ecole internationale Le Verseau",
+    "value_en": "Parents Association of Le Verseau International School"
+  },
+  {
+    "category": "footer",
+    "name": "copyright",
+    "value_fr": "2026 APPA. Tous droits reserves.",
+    "value_en": "2026 APPA. All rights reserved."
+  }
+]

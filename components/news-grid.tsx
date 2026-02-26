@@ -5,11 +5,19 @@ import Image from "next/image"
 import Link from "next/link"
 import { Badge } from "@/components/ui/badge"
 import { articles } from "@/lib/articles"
+import { useTranslation } from "@/lib/use-translation"
 
-const categories = ["Tout", "A la une", "Boutique", "Fondamental", "Secondaire"]
+const filterConfigs = [
+  { tag: "Tout", nameKey: "filter_all" },
+  { tag: "A la une", nameKey: "filter_headline" },
+  { tag: "Boutique", nameKey: "filter_shop" },
+  { tag: "Fondamental", nameKey: "filter_primary" },
+  { tag: "Secondaire", nameKey: "filter_secondary" },
+]
 
 export function NewsGrid() {
   const [active, setActive] = useState("Tout")
+  const { t } = useTranslation()
 
   const filtered = active === "Tout"
     ? articles
@@ -20,17 +28,17 @@ export function NewsGrid() {
       <div className="mx-auto max-w-7xl">
         {/* Filters */}
         <div className="mb-10 flex flex-wrap gap-2">
-          {categories.map((cat) => (
+          {filterConfigs.map((cat) => (
             <button
-              key={cat}
-              onClick={() => setActive(cat)}
+              key={cat.tag}
+              onClick={() => setActive(cat.tag)}
               className={`rounded-full px-5 py-2 text-sm font-medium transition-colors ${
-                active === cat
+                active === cat.tag
                   ? "bg-primary text-primary-foreground"
                   : "bg-card text-muted-foreground hover:text-foreground border border-border"
               }`}
             >
-              {cat}
+              {t("news", cat.nameKey)}
             </button>
           ))}
         </div>
@@ -74,7 +82,7 @@ export function NewsGrid() {
 
         {filtered.length === 0 && (
           <div className="text-center py-16">
-            <p className="text-muted-foreground text-lg">{"Aucun article dans cette categorie pour le moment."}</p>
+            <p className="text-muted-foreground text-lg">{t("news", "empty_state")}</p>
           </div>
         )}
       </div>

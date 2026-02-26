@@ -11,8 +11,9 @@ export default function FaqPage() {
   return (
     <>
       <PageHeader
-        title="Questions frequentes"
-        description="Une question merite une reponse. C'est certain !"
+        category="faq"
+        titleKey="page_title"
+        descriptionKey="page_description"
       />
       <Faq />
     </>
