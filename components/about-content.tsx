@@ -1,23 +1,4 @@
 import Image from "next/image"
-import { Users, BookOpen, Heart } from "lucide-react"
-
-const highlights = [
-  {
-    icon: Users,
-    label: "Communaute active",
-    desc: "Des parents benevoles devoues au bien-etre de tous les eleves.",
-  },
-  {
-    icon: BookOpen,
-    label: "Depuis 1997",
-    desc: "Plus de 25 ans au service de la communaute scolaire Le Verseau.",
-  },
-  {
-    icon: Heart,
-    label: "Ouvert a tous",
-    desc: "Chaque parent peut contribuer, meme ponctuellement.",
-  },
-]
 
 const paragraphs = [
   {
@@ -33,53 +14,16 @@ const paragraphs = [
     alt: "Parents reunis lors d'un evenement communautaire",
   },
   {
-    title: "Votre lien avec l'ecole",
-    text: "L'Association des Parents est une garantie de communication et de transparence entre les parents, l'ecole et la communaute. Nous collaborons etroitement avec la direction pour ameliorer le quotidien de vos enfants.",
+    title: "Votre voix, notre action",
+    text: "Nous jouons un role cle dans la democratie de l'ecole. Grace a nos delegues, nous assurons que les questions et les preoccupations des parents sont entendues et prises en compte lors du Conseil de Participation, par la direction de l'ecole, et par les asbl Les Amis du Verseau et VSAL.\n\nL'APPA est la pour vous representer, agir et ameliorer continuellement la vie scolaire pour tous.",
     image: "/images/about-communication.jpg",
-    alt: "Reunion entre parents et direction de l'ecole",
+    alt: "Parents et enseignants discutant ensemble a l'ecole",
   },
 ]
 
 export function AboutContent() {
   return (
     <>
-      {/* Qui sommes-nous hero section */}
-      <section className="py-20 px-6 bg-muted">
-        <div className="mx-auto max-w-7xl">
-          <div className="flex flex-col gap-12 lg:flex-row lg:items-center lg:gap-20">
-            <div className="lg:w-1/2">
-              <p className="font-mono text-sm uppercase tracking-widest text-primary mb-3">
-                Qui sommes-nous ?
-              </p>
-              <h2 className="text-3xl font-bold md:text-4xl text-balance">
-                {"L'APPA, votre lien avec l'ecole"}
-              </h2>
-              <p className="mt-6 text-muted-foreground text-lg leading-relaxed">
-                {"L'Association des Parents est une garantie de communication et de transparence entre les parents, l'ecole et la communaute. Nous collaborons etroitement avec la direction pour ameliorer le quotidien de vos enfants."}
-              </p>
-            </div>
-
-            <div className="lg:w-1/2 grid gap-6">
-              {highlights.map((h) => (
-                <div
-                  key={h.label}
-                  className="flex gap-5 rounded-xl border border-border bg-card p-6 transition-shadow hover:shadow-md"
-                >
-                  <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-primary/10 text-primary">
-                    <h.icon className="h-6 w-6" />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-card-foreground">{h.label}</h3>
-                    <p className="mt-1 text-sm text-muted-foreground leading-relaxed">{h.desc}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Alternating paragraphs with images */}
       {paragraphs.map((p, i) => (
         <section
           key={p.title}
@@ -92,9 +36,6 @@ export function AboutContent() {
               }`}
             >
               <div className="lg:w-1/2">
-                <p className="font-mono text-sm uppercase tracking-widest text-primary mb-3">
-                  {`0${i + 1}`}
-                </p>
                 <h2 className="text-2xl font-bold md:text-3xl text-balance">
                   {p.title}
                 </h2>
