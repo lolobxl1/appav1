@@ -40,10 +40,22 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   }, [])
 
   useEffect(() => {
+    const cached = sessionStorage.getItem("translations")
+    if (cached) {
+      try {
+        setTranslations(JSON.parse(cached))
+        setIsLoading(false)
+        return
+      } catch {
+        // invalid cache, fetch fresh
+      }
+    }
+
     fetch("/php/website.php")
       .then((res) => res.json())
       .then((data: TranslationEntry[]) => {
         setTranslations(data)
+        sessionStorage.setItem("translations", JSON.stringify(data))
         setIsLoading(false)
       })
       .catch(() => {
