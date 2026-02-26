@@ -1,4 +1,4 @@
-import { Mail, Facebook } from "lucide-react"
+import { Mail, Facebook, Instagram } from "lucide-react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 
@@ -37,12 +37,20 @@ export function Team() {
 
         <div className="mt-12 text-center">
           <p className="text-muted-foreground mb-4">Suivez-nous sur les réseaux</p>
-          <Button variant="outline" size="lg" asChild>
-            <Link href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-              <Facebook className="mr-2 h-5 w-5" />
-              Facebook
-            </Link>
-          </Button>
+          <div className="flex flex-wrap items-center justify-center gap-4">
+            <Button variant="outline" size="lg" asChild>
+              <Link href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                <Facebook className="mr-2 h-5 w-5" />
+                Facebook
+              </Link>
+            </Button>
+            <Button variant="outline" size="lg" asChild>
+              <Link href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                <Instagram className="mr-2 h-5 w-5" />
+                Instagram
+              </Link>
+            </Button>
+          </div>
         </div>
       </div>
     </section>

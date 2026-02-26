@@ -10,6 +10,22 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    slug: "whatsapp-community",
+    title: "WhatsApp Community — Restez connectes entre parents !",
+    description: "La communication entre parents se fait principalement via la communaute WhatsApp du Verseau. Decouvrez les groupes disponibles et comment les rejoindre.",
+    content: [
+      "La communaute WhatsApp Le Verseau est le canal principal de communication entre parents. Elle regroupe plusieurs types de groupes pour faciliter les echanges, l'entraide et la coordination au quotidien.",
+      "Groupes classes — Chaque classe dispose de son propre groupe prive, permettant aux parents de s'entre-aider sur les activites de la classe : devoirs, excursions, informations pratiques. Les groupes sont organises par niveau : MAT (maternelle), PRI (primaire) et SEC (secondaire).",
+      "Networking — Des groupes optionnels sont disponibles pour les parents selon leurs points communs : MAT - Maternelle Parents, PRI - Primary Parents, SEC - Secondary Parents, APPA - Second hands, ALL - CARPOOL, Parents de Ville, et Le Verseau Unplugged (avec un sous-groupe iPad pour le secondaire).",
+      "Groupes APPA — Pour un echange plus direct entre les parents et l'association : APPA - Events pour les evenements, APPA - Feedbacks pour vos retours, et APPA - Ideas & Volunteers pour proposer des idees ou se porter volontaire.",
+      "Coordination d'activites — Des groupes dedies permettent de coordonner certaines activites APPA, comme les jeux de societe et echecs du midi pour les enfants en primaire (PRI - APPA Lunch Activities) ou le projet potager (PRI - APPA Projet Potager).",
+      "N'hesitez pas a rejoindre les groupes qui vous interessent ! Contactez vos delegues de classe ou l'APPA pour recevoir les liens d'invitation.",
+    ],
+    image: "/images/whatsapp-community.jpg",
+    date: "26 Feb 2026",
+    tags: ["A la une", "Fondamental", "Secondaire"],
+  },
+  {
     slug: "marche-familiale-lanternes",
     title: "Marche familiale aux lanternes - Fete des lumieres",
     description: "Rejoignez-nous pour une balade enchantee en famille avec des lanternes faites maison.",
