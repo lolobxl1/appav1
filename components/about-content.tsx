@@ -62,6 +62,7 @@ export function AboutContent() {
                     width={640}
                     height={420}
                     className="h-auto w-full object-cover"
+                    {...(i === 0 ? { priority: true } : {})}
                   />
                 </div>
               </div>
