@@ -11,8 +11,9 @@ export default function BoutiquePage() {
   return (
     <>
       <PageHeader
-        title="C'est notre boutique"
-        description="Soutenez l'ecole et affichez vos couleurs avec nos articles officiels Le Verseau."
+        category="shop"
+        titleKey="page_title"
+        descriptionKey="page_description"
       />
       <Shop />
     </>

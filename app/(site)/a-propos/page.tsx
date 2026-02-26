@@ -11,8 +11,9 @@ export default function AProposPage() {
   return (
     <>
       <PageHeader
-        title="L'APPA, votre lien avec l'ecole"
-        description="L'Association des Parents est une garantie de communication et de transparence entre les parents, l'ecole et la communaute. Nous collaborons etroitement avec la direction pour ameliorer le quotidien de vos enfants."
+        category="about"
+        titleKey="page_title"
+        descriptionKey="page_description"
       />
       <AboutContent />
     </>

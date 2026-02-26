@@ -1,28 +1,33 @@
+"use client"
+
 import Image from "next/image"
 import Link from "next/link"
 import { ArrowRight } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { articles } from "@/lib/articles"
+import { useTranslation } from "@/lib/use-translation"
 
 const latestArticles = articles.slice(0, 2)
 
 export function NewsPreview() {
+  const { t } = useTranslation()
+
   return (
     <section className="py-24 px-6">
       <div className="mx-auto max-w-7xl">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between mb-12">
           <div>
             <p className="font-mono text-sm uppercase tracking-widest text-primary mb-3">
-              {"Actualites"}
+              {t("home", "news_label")}
             </p>
             <h2 className="text-3xl font-bold md:text-4xl text-balance">
-              {"A la une"}
+              {t("home", "news_title")}
             </h2>
           </div>
           <Button variant="outline" asChild>
             <Link href="/actualites">
-              Toutes les actualites
+              {t("home", "news_button")}
               <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </Button>

@@ -11,8 +11,9 @@ export default function ContactPage() {
   return (
     <>
       <PageHeader
-        title="Une equipe solide"
-        description="Une chaine faite de maillons qui forment une equipe devouee au bien-etre de vos enfants."
+        category="contact"
+        titleKey="page_title"
+        descriptionKey="page_description"
       />
       <Team />
     </>

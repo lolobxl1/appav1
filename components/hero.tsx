@@ -1,9 +1,14 @@
+"use client"
+
 import Image from "next/image"
 import Link from "next/link"
 import { ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import { useTranslation } from "@/lib/use-translation"
 
 export function Hero() {
+  const { t } = useTranslation()
+
   return (
     <section id="hero" className="relative min-h-[90vh] flex items-center overflow-hidden">
       <Image
@@ -19,18 +24,18 @@ export function Hero() {
       <div className="relative z-10 mx-auto max-w-7xl px-6 py-32">
         <div className="max-w-2xl">
           <p className="font-mono text-sm uppercase tracking-widest text-secondary mb-4">
-            Association des Parents
+            {t("home", "hero_label")}
           </p>
           <h1 className="text-4xl font-bold leading-tight text-background sm:text-5xl lg:text-6xl text-balance">
-            Bienvenue !
+            {t("home", "main_title")}
           </h1>
           <p className="mt-6 text-lg leading-relaxed text-background/90 max-w-xl">
-            {"Nous sommes l'equipe dynamique de l'APPA : ensemble, nous promouvons le bien-etre de nos enfants et renforcons une communaute vivante et connectee de parents et d'eleves a l'Ecole Internationale Le Verseau."}
+            {t("home", "main_text")}
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <Button size="lg" asChild>
               <Link href="/a-propos">
-                {"Decouvrir l'APPA"}
+                {t("home", "hero_button")}
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>

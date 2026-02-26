@@ -1,9 +1,18 @@
+"use client"
+
+import { useTranslation } from "@/lib/use-translation"
+
 interface PageHeaderProps {
-  title: string
-  description?: string
+  category: string
+  titleKey: string
+  descriptionKey?: string
 }
 
-export function PageHeader({ title, description }: PageHeaderProps) {
+export function PageHeader({ category, titleKey, descriptionKey }: PageHeaderProps) {
+  const { t } = useTranslation()
+  const title = t(category, titleKey)
+  const description = descriptionKey ? t(category, descriptionKey) : undefined
+
   return (
     <section
       className="relative pt-28 pb-8 px-6 overflow-hidden bg-primary"

@@ -1,35 +1,40 @@
-import Image from "next/image"
+"use client"
 
-const paragraphs = [
+import Image from "next/image"
+import { useTranslation } from "@/lib/use-translation"
+
+const paragraphConfigs = [
   {
     id: "activites-midi",
-    title: "Au centre, nos enfants",
-    text: "Notre premiere priorite est le bien-etre de nos enfants. Toutes les activites de l'APPA sont donc centrees sur eux, et sur leurs parents.\n\nActivite phare pour les enfants, nous organisons des activites ludiques durant la pause de midi avec l'aide de parents motives : bricolage et art, echecs et jeux de societe !\n\nL'APPA organise aussi la Chasse aux oeufs de Paques, en offrant de bons oeufs en chocolat, avec un parent deguise(e) en Lapin de Paques pour venir visiter les classes de maternelles.",
+    titleKey: "paragraph_1_title",
+    textKeys: ["paragraph_1_text_1", "paragraph_1_text_2", "paragraph_1_text_3"],
     image: "/images/about-enfants.jpg",
-    alt: "Enfants jouant et faisant des activites a l'ecole",
+    alt: "Children playing and doing activities at school",
   },
   {
     id: "evenements-scolaires",
-    title: "Communaute connectee",
-    text: "L'Association des Parents APPA est un pilier essentiel de l'ecole.\n\nNous offrons un soutien concret lors des grands evenements scolaires : organisation du Buffet international, collaboration lors des fetes d'ecole (tenue de stands, etc.) et bien d'autres.\n\nNous organisons egalement des rencontres pour les parents : petits-dejeuners, moments the/cafe, vide-greniers et conferences enrichissantes, pour renforcer les liens et partager des experiences.\n\nEnsemble, nous batissons une communaute solide et bienveillante.",
+    titleKey: "paragraph_2_title",
+    textKeys: ["paragraph_2_text_1", "paragraph_2_text_2", "paragraph_2_text_3", "paragraph_2_text_4"],
     image: "/images/about-communaute.jpg",
-    alt: "Parents reunis lors d'un evenement communautaire",
+    alt: "Parents gathered at a community event",
   },
   {
     id: "rencontres-parents",
-    title: "Votre voix, notre action",
-    text: "Nous jouons un role cle dans la democratie de l'ecole. Grace a nos delegues, nous assurons que les questions et les preoccupations des parents sont entendues et prises en compte lors du Conseil de Participation, par la direction de l'ecole, et par les asbl Les Amis du Verseau et VSAL.\n\nL'APPA est la pour vous representer, agir et ameliorer continuellement la vie scolaire pour tous.",
+    titleKey: "paragraph_3_title",
+    textKeys: ["paragraph_3_text_1", "paragraph_3_text_2"],
     image: "/images/about-communication.jpg",
-    alt: "Parents et enseignants discutant ensemble a l'ecole",
+    alt: "Parents and teachers discussing together at school",
   },
 ]
 
 export function AboutContent() {
+  const { t } = useTranslation()
+
   return (
     <>
-      {paragraphs.map((p, i) => (
+      {paragraphConfigs.map((p, i) => (
         <section
-          key={p.title}
+          key={p.id}
           id={p.id}
           className={`scroll-mt-24 ${i % 2 === 1 ? "py-20 px-6 bg-muted" : "py-20 px-6"}`}
         >
@@ -41,11 +46,11 @@ export function AboutContent() {
             >
               <div className="lg:w-1/2">
                 <h2 className="text-2xl font-bold md:text-3xl text-balance">
-                  {p.title}
+                  {t("about", p.titleKey)}
                 </h2>
                 <div className="mt-6 space-y-4 text-muted-foreground text-base leading-relaxed">
-                  {p.text.split("\n\n").map((paragraph, j) => (
-                    <p key={j}>{paragraph}</p>
+                  {p.textKeys.map((key) => (
+                    <p key={key}>{t("about", key)}</p>
                   ))}
                 </div>
               </div>

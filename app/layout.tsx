@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { DM_Sans, Space_Mono } from 'next/font/google'
+import { LanguageProvider } from '@/lib/language-context'
 
 import './globals.css'
 
@@ -18,7 +19,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr" className="scroll-smooth">
-      <body className={`${dmSans.variable} ${spaceMono.variable} font-sans antialiased`}>{children}</body>
+      <body className={`${dmSans.variable} ${spaceMono.variable} font-sans antialiased`}>
+        <LanguageProvider>{children}</LanguageProvider>
+      </body>
     </html>
   )
 }

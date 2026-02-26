@@ -1,10 +1,8 @@
 import { notFound } from "next/navigation"
 import Image from "next/image"
-import Link from "next/link"
-import { ArrowLeft } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
 import { articles, getArticleBySlug } from "@/lib/articles"
+import { BackToNews } from "@/components/back-to-news"
 import type { Metadata } from "next"
 
 export async function generateStaticParams() {
@@ -76,12 +74,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           </div>
 
           <div className="mt-12 pt-8 border-t border-border">
-            <Button variant="outline" asChild>
-              <Link href="/actualites">
-                <ArrowLeft className="mr-2 h-4 w-4" />
-                Retour aux actualites
-              </Link>
-            </Button>
+            <BackToNews />
           </div>
         </div>
       </section>
