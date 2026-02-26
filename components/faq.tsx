@@ -72,34 +72,39 @@ export function Faq() {
     navigator.clipboard.writeText(url)
   }
 
+  const categories = ["General", "Fondamental", "Secondaire"] as const
+
   return (
     <section className="py-10 px-6">
-      <div className="mx-auto max-w-3xl">
-        <Accordion type="single" collapsible className="w-full">
-          {faqItems.map((item) => (
-            <AccordionItem key={item.id} value={item.id} id={item.id} className="scroll-mt-28">
-              <AccordionTrigger className="text-left text-base font-medium hover:no-underline gap-3">
-                <div className="flex flex-col gap-1 flex-1">
-                  <span className="text-xs font-mono uppercase tracking-wider text-muted-foreground">
-                    {item.category}
-                  </span>
-                  <span>{item.q}</span>
-                </div>
-              </AccordionTrigger>
-              <AccordionContent className="text-muted-foreground leading-relaxed">
-                <p>{item.a}</p>
-                <button
-                  onClick={() => copyAnchor(item.id)}
-                  className="mt-4 inline-flex items-center gap-1.5 text-xs font-medium text-primary hover:text-primary/80 transition-colors"
-                  title="Copier le lien vers cette question"
-                >
-                  <Link2 className="h-3.5 w-3.5" />
-                  Copier le lien
-                </button>
-              </AccordionContent>
-            </AccordionItem>
-          ))}
-        </Accordion>
+      <div className="mx-auto max-w-3xl space-y-12">
+        {categories.map((category) => {
+          const items = faqItems.filter((item) => item.category === category)
+          return (
+            <div key={category}>
+              <h2 className="mb-6 text-xl font-bold text-foreground">{category}</h2>
+              <Accordion type="single" collapsible className="w-full">
+                {items.map((item) => (
+                  <AccordionItem key={item.id} value={item.id} id={item.id} className="scroll-mt-28">
+                    <AccordionTrigger className="text-left text-base font-medium hover:no-underline gap-3">
+                      <span>{item.q}</span>
+                    </AccordionTrigger>
+                    <AccordionContent className="text-muted-foreground leading-relaxed">
+                      <p>{item.a}</p>
+                      <button
+                        onClick={() => copyAnchor(item.id)}
+                        className="mt-4 inline-flex items-center gap-1.5 text-xs font-medium text-primary hover:text-primary/80 transition-colors"
+                        title="Copier le lien vers cette question"
+                      >
+                        <Link2 className="h-3.5 w-3.5" />
+                        Copier le lien
+                      </button>
+                    </AccordionContent>
+                  </AccordionItem>
+                ))}
+              </Accordion>
+            </div>
+          )
+        })}
       </div>
     </section>
   )
